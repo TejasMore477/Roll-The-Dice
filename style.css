@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+form{
+    text-align: center;
+    margin: auto;
+    height: auto;
+    width: 80%;
+    padding: 2rem  0 0 0 ;
+}
+
+label, input{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: skyblue;
+}
+
+h1{
+    margin-bottom: 2rem;
+    text-decoration:overline;
+}
+
+#rollresult{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+img{
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+}
+
+@media (max-width: 575.98px) {
+    /* Styles for extra small devices */
+
+    img{
+        height: 4rem;
+        width: 4rem;
+        margin: 0.5rem;
+    }
+    
+}
